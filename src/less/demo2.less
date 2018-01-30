@@ -1,0 +1,338 @@
+@import './triangle.less';
+@import './common.less';
+#demo2{
+    .triangle(top, 25px, red);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei',sans-serif;
+}
+.wrapper .head-title{
+    width: 100%;
+    height: 94px;
+    background: #373c64;
+} 
+.wrapper .head-title .head-content{
+    margin-left: 300px;
+    width: 980px;
+    height: 94px;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/deb.png) 15px 0 no-repeat;
+}
+
+.wrapper .content{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.wrapper .content .find-work .inputMessage{
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+.wrapper .find-work .work{
+    color: #9A9A9A;
+    font-size: 16px;
+}
+
+.wrapper .find-work .address li{
+    float: left;
+    display: inline-block;
+    height: 32px;
+    width: 52px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.find-work .address .address-head .active2{
+    background: #373c64;
+    color: #fff;
+}
+.wrapper .find-work .address{
+    display: none;
+}
+.wrapper .find-work .active{
+    display: block;
+}
+
+.wrapper .find-work .address{
+    background-color: #fff;
+    z-index: 200000;
+    width: 690px;
+    margin-top: 8px;
+    margin-left: 110px;
+    border: 1px solid #f3f3f3;
+    position: relative;
+}
+.find-work .address .address-head{
+    border-bottom: 1px solid #f3f3f3;
+    height: 32px;
+}
+.find-work .address .address-content{
+    margin-left: -20px;
+}
+.find-work .address .address-content li{
+    color: #999;
+    font-size: 14px;
+    width: 75px;
+    line-height: 30px;
+    margin-left: 18px;
+    margin-right: 45px;
+}
+.find-work .address .address-content li:hover{
+    color: #000;
+}
+.find-work .address .address-content a:hover{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+
+.message .message-head li{
+    float: left;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-right: 1px #e9e9e9 solid;
+}
+.message .message-head li a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.message .message-head .pick{
+    background: #494e7b;
+}
+.message .message-head .pick a{
+    color: #fff;
+}
+
+.message .message-head .active3{
+    background: #494e7b;
+}
+.message .message-head .active3 a{
+    color: #fff;
+}
+
+.message .message-content{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    /*width: 940px;*/
+}
+.message .message-content .list-title{
+    width: 940px;
+    height: 36px;
+    line-height: 36px;
+    margin:0 auto;
+    background: #f6f6f6;
+    padding-left: 40px;
+}
+.message .message-content .list-title li{
+    font-size: 16px;
+}
+.message .message-content li{
+    font-size: 14px;
+}
+.message .message-content li{
+    float: left;
+    width: 180px;
+    color: #999;
+    line-height: 36px;
+    overflow: hidden;
+}
+.message .message-content ul{
+    overflow: hidden;
+    padding-left: 40px;
+}
+.message .message-content .sp1{
+    width: 180px;
+}
+.message .message-content .sp2{
+    width: 145px;
+}
+.message .message-content .sp3{
+    width: 110px;
+}
+.message .message-content .sp4{
+    width: 165px;
+}
+.message .message-content .sp5{
+    width: 170px;
+}
+.message .message-content .sp6{
+    width: 120px;
+}
+
+.message  .pager{
+    position: absolute;
+    left: 300px;
+    top: 535px;
+    height: 36px;
+    width: 900px;
+}
+
+/*+za/*/
+.message  .pager li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    padding: 0 13px;
+    margin-left: -1px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #e6e7e8;
+    font: 700 14px/34px Arial;
+    vertical-align: middle;
+}
+
+/*.message .pager .flip a{
+    width: 100%;
+    height: 100%;
+}*/
+.message .pager .flip .active4{
+    background: #494e7b;
+}
+.message .pager .flip a{
+    font: 700 14px/34px Arial;
+}
+.message .pager .flip .active4 a{
+    color: #fff!important;
+}
+.message .pager .flip .next-page,
+.message .pager .flip .pre-page{
+    font-weight: 400;
+    font-size: 12px;
+    color: #494e7b;
+}
+
+.wrapper .content .introduce{
+    position: absolute;
+    top: 690px;
+}
+.content .introduce .introduce-head{
+    margin-bottom: 50px;
+}
+.wrapper .content .introduce .video{
+    height: 310px;
+}
+.content .introduce .introduce-head div{
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    left: 22px;
+    top: 0;
+}
+
+.content .introduce .wordbox{
+    position: absolute;
+    left: 425px;
+    top: 75px;
+    width: 540px;
+    height: 260px;
+}
+.introduce .wordbox p{
+    font-size: 13px;
+    line-height: 26px;
+    text-indent: 2em;
+}
+
+.wrapper .content .flow{
+    position: absolute;
+    left: 0;
+    top: 1200px;
+}
+.wrapper .content .flow .flow-content{
+    margin-top: 20px;
+}
+.content .flow .flow-head div{
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    left: 22px;
+    top: 0;
+}
+.wrapper .content .flow .flow_pic{
+    height: 110px;
+}
+
+.wrapper .content .carousel{
+    position: absolute;
+    left: 0;
+    top: 1500px;
+}
+.content .carousel .carousel-content{
+    width: 900px;
+    height: 370px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    left: 35px;
+}
+.content .carousel .carousel-head div{
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    left: 22px;
+    top: 0;
+}
+.content .carousel .poster-list{
+    width: 900px;
+    height: 370px;
+}
+.content .carousel .poster-item{
+    width: 512px;
+    height: 296px;
+    z-index: 2;
+    position: absolute;
+}
+.content .carousel .poster-item a,
+.content .carousel .poster-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .carousel-content .poster-btn{
+    position: absolute;
+    width: 17px;
+    height: 97px;
+}
+
+.carousel .carousel-content .poster-prev-btn{
+    left: -36px;
+    top: 136px;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat; 
+}
+.carousel .carousel-content .poster-next-btn{
+    right: -36px;
+    top: 136px;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat -36px 0;
+}
+
+.wrapper .footer{
+    position: relative;
+    top: 2050px;
+    text-align: center;
+    color: #aaaec9;
+    background: #373c64;
+    height: 80px;
+    line-height: 80px;
+}	
+
+.near-job a{
+    margin-left: 10px;
+}

@@ -1,0 +1,20 @@
+.triangle(@_, @borderWidth, @color) {
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    display: block;
+    border-width: @borderWidth;
+}
+.triangle(top, @borderWidth, @color) {
+    border-bottom-color: @color;
+}
+.triangle(bootom, @borderWidth, @color) {
+    border-top-color: @color;
+}
+.triangle(left, @borderWidth, @color) {
+    border-right-color: @color;
+}
+.triangle(right, @borderWidth, @color) {
+    border-left-color: @color;
+}

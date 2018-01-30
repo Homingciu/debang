@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+#demo1{
+    background: red;
+}
+#demo2{
+    background: yellow;
+    background: url('../img/1.jpg') no-repeat;
+}
